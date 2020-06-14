@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>英华逸游</title>
+    <meta charset="utf-8">
+
+    <!-- <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"> -->
+    <style>
+        .bg {
+            width: 100%;
+            height: 100%;
+            background-color: #f3f5f7;
+        }
+        
+        .bottom {
+            width: 100%;
+            height: 46px;
+            background-color: #282828;
+        }
+        
+        .bottom img {
+            margin-left: 974px;
+            margin-top: 12px;
+            width: 31px;
+            height: 26px;
+            /* position: absolute; */
+        }
+        
+        .bottom .p1 {
+            color: #f3f5f7;
+            font-size: 20px;
+            margin-left: 1013px;
+            margin-top: -30px;
+        }
+        
+        .bottom .p2 {
+            color: #f3f5f7;
+            font-size: 14.23px;
+            margin-left: 1209px;
+            margin-top: -44px;
+        }
+        
+        .nav img {
+            position: absolute;
+            width: 178px;
+            height: 51px;
+            margin-left: 115px;
+            margin-top: 15px;
+        }
+        
+        .nav-list ul {
+            position: absolute;
+            list-style: none;
+            line-height: 20px;
+            margin-left: 444px;
+        }
+        
+        .nav-list a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .nav-list a:hover {
+            color: #cb5405;
+            border-bottom: 2px solid #cb5405;
+        }
+        
+        .nav-list li {
+            display: inline-block;
+            margin: 9px 85px 0 0;
+            font-size: 20px;
+        }
+        
+        .banner {
+            position: absolute;
+            width: 100%;
+            height: 450px;
+        }
+        
+        .banner img {
+            position: absolute;
+            width: 100%;
+            height: 446px;
+            margin-top: 86px;
+        }
+        
+        .banner-p1 {
+            font-size: 48.1px;
+            position: absolute;
+            margin-top: 203px;
+            margin-left: 196px;
+            color: #e0e0e0;
+            font-weight: lighter;
+        }
+        
+        .line1 {
+            position: absolute;
+            width: 320px;
+            height: 1px;
+            border-top: solid #59595e 1.5px;
+            margin-top: 279px;
+            margin-left: 196px;
+        }
+        
+        .banner-p2 {
+            font-size: 20.04px;
+            font-weight: lighter;
+            position: absolute;
+            margin-top: 296px;
+            margin-left: 196px;
+            color: #e0e0e0;
+        }
+        
+        .banner-p3 {
+            font-size: 20.04px;
+            font-weight: lighter;
+            position: absolute;
+            margin-top: 337px;
+            margin-left: 196px;
+            color: #e0e0e0;
+        }
+        
+        .line2 {
+            position: absolute;
+            width: 402px;
+            height: 1px;
+            border-top: solid #59595e 1.5px;
+            margin-top: 375px;
+            margin-left: 196px;
+        }
+        
+        .content1 .pic1 {
+            width: 937px;
+            height: 366px;
+            position: absolute;
+            margin-left: 115px;
+            margin-top: 602px;
+            z-index: -1;
+        }
+        
+        .content .pic2 {
+            width: 266px;
+            height: 365px;
+            background-color: #14316d;
+            position: absolute;
+            margin-left: 1051px;
+            margin-top: 602px;
+        }
+        
+        .content1 .car {
+            width: 95px;
+            height: 95px;
+            position: absolute;
+            margin-left: 1140px;
+            margin-top: 684px;
+        }
+        
+        .content1 .cars {
+            width: 105px;
+            height: 28px;
+            position: absolute;
+            color: #e1e1e1;
+            font-size: 26px;
+            font-weight: lighter;
+            margin-top: 794px;
+            margin-left: 1138px;
+        }
+        
+        .round-rectangle {
+            height: 52px;
+            width: 179px;
+            position: absolute;
+            margin-top: 873px;
+            margin-left: 1104px;
+            border-style: solid;
+            border-radius: 15px;
+            border-color: #e1e1e1;
+        }
+        
+        .plane-text1 {
+            font-size: 36px;
+            margin-top: 636px;
+            margin-left: 662px;
+            position: absolute;
+            color: #e1e1e1;
+            font-weight: lighter;
+        }
+        
+        .plane-text2 {
+            font-size: 18px;
+            margin-top: 692px;
+            margin-left: 662px;
+            position: absolute;
+            color: #e1e1e1;
+            font-weight: lighter;
+        }
+        
+        .plane-text3 {
+            font-size: 18px;
+            margin-top: 725px;
+            margin-left: 662px;
+            position: absolute;
+            color: #e1e1e1;
+            font-weight: lighter;
+        }
+        
+        .chakan {
+            font-weight: lighter;
+            font-size: 23.99px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-left: 40px;
+            margin-top: 10px;
+        }
+        
+        .hot-route {
+            margin-top: 995px;
+            margin-left: 613px;
+            position: absolute;
+            color: #000000;
+            font-size: 36px;
+        }
+        
+        .hot-route-E {
+            margin-top: 1045px;
+            margin-left: 610px;
+            position: absolute;
+            color: #000000;
+            font-size: 18px;
+        }
+        
+        .content-pics {
+            width: 1203px;
+            height: 1021px;
+            position: absolute;
+            margin-top: 1101px;
+            margin-left: 115px;
+        }
+        
+        .hot1 {
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        
+        .hot3 {
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 593px;
+            z-index: -1;
+        }
+        
+        .hot2 {
+            position: absolute;
+            margin-top: 494px;
+            margin-left: 0px;
+        }
+        
+        .hot4 {
+            position: absolute;
+            margin-top: 297px;
+            margin-left: 593px;
+            z-index: -1;
+        }
+        
+        .hot5 {
+            position: absolute;
+            margin-top: 656px;
+            margin-left: 593px;
+            z-index: -1;
+        }
+        
+        #black1 {
+            position: absolute;
+            width: 588px;
+            height: 105px;
+            margin-top: 387px;
+            margin-left: 0px;
+            background: #000000;
+        }
+        
+        #black2 {
+            position: absolute;
+            width: 588px;
+            height: 90px;
+            margin-top: 932px;
+            margin-left: 0px;
+            background: #000000;
+        }
+        
+        .sanya {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 21px;
+            margin-left: 43px;
+        }
+        
+        .sanya-money {
+            font-size: 30px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 53px;
+            margin-left: 43px;
+        }
+        
+        .europe {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 43px;
+        }
+        
+        .europe-money {
+            font-size: 30px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 46px;
+            margin-left: 43px;
+        }
+        
+        #cover1 {
+            position: absolute;
+            width: 609px;
+            height: 87px;
+            margin-top: -90px;
+            margin-left: 0px;
+            opacity: 0.5;
+            background: #000000;
+        }
+        
+        #cover2 {
+            position: absolute;
+            width: 609px;
+            height: 87px;
+            margin-top: -94px;
+            margin-left: 0px;
+            opacity: 0.5;
+            background: #000000;
+        }
+        
+        #cover3 {
+            position: absolute;
+            width: 609px;
+            height: 87px;
+            margin-top: -90px;
+            margin-left: 0px;
+            opacity: 0.5;
+            background: #000000;
+        }
+        
+        .mangu {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 12px;
+            margin-left: 43px;
+        }
+        
+        .mangu-money {
+            font-size: 30px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 43px;
+            margin-left: 43px;
+        }
+        
+        .japan {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 12px;
+            margin-left: 43px;
+        }
+        
+        .japan-money {
+            font-size: 30px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 43px;
+            margin-left: 43px;
+        }
+        
+        .sili {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 12px;
+            margin-left: 43px;
+        }
+        
+        .sili-money {
+            font-size: 30px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 43px;
+            margin-left: 43px;
+        }
+        
+        .tourist {
+            margin-top: 2171px;
+            margin-left: 606px;
+            position: absolute;
+            color: #000000;
+            font-size: 36px;
+        }
+        
+        .slogan {
+            margin-top: 2235px;
+            margin-left: 585px;
+            position: absolute;
+            color: #000000;
+            font-size: 16px;
+        }
+        
+        .pictures {
+            width: 1203px;
+            height: 1031px;
+            position: absolute;
+            margin-top: 2289px;
+            margin-left: 115px;
+        }
+        
+        .picture1 {
+            width: 498px;
+            height: 354px;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        
+        .picture2 {
+            width: 708px;
+            height: 351px;
+            background-color: #1b4d7b;
+            position: absolute;
+            margin-top: 0px;
+            margin-left: 498px;
+        }
+        
+        .picture2-p1 {
+            font-size: 26px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 90px;
+            margin-left: 260px;
+        }
+        
+        .picture2-p2 {
+            width: 517px;
+            height: 121px;
+            font-size: 16px;
+            font-weight: lighter;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 158px;
+            margin-left: 95px;
+            line-height: 33px;
+        }
+        
+        .picture3 {
+            width: 1203px;
+            height: 472px;
+            position: absolute;
+            margin-top: 355px;
+            margin-left: 0px;
+        }
+        
+        .picture4 {
+            width: 1203px;
+            height: 400px;
+            background-color: #1b4d7b;
+            position: absolute;
+            margin-top: 831px;
+            margin-left: 0px;
+        }
+        
+        .round {
+            width: 188px;
+            height: 188px;
+            position: absolute;
+            margin-top: 48px;
+            margin-left: 179px;
+        }
+        
+        .round2 {
+            width: 188px;
+            height: 188px;
+            position: absolute;
+            margin-top: 48px;
+            margin-left: 507px;
+        }
+        
+        .round3 {
+            width: 188px;
+            height: 188px;
+            position: absolute;
+            margin-top: 48px;
+            margin-left: 839px;
+        }
+        
+        .zuanshi {
+            width: 62px;
+            height: 57px;
+            position: absolute;
+            margin-top: 94px;
+            margin-left: 242px;
+        }
+        
+        .quality-text1 {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 172px;
+            margin-left: 236px;
+        }
+        
+        .quality-text2 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 277px;
+            margin-left: 133px;
+        }
+        
+        .quality-text3 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 308px;
+            margin-left: 182px;
+        }
+        
+        .custom {
+            width: 51px;
+            height: 70px;
+            position: absolute;
+            margin-top: 89px;
+            margin-left: 575px;
+        }
+        
+        .custom-text1 {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 172px;
+            margin-left: 563px;
+        }
+        
+        .custom-text2 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 277px;
+            margin-left: 561px;
+        }
+        
+        .custom-text3 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 308px;
+            margin-left: 512px;
+        }
+        
+        .good {
+            width: 51px;
+            height: 58px;
+            position: absolute;
+            margin-top: 96px;
+            margin-left: 908px;
+        }
+        
+        .good-text1 {
+            font-size: 20px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 172px;
+            margin-left: 896px;
+        }
+        
+        .good-text2 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 277px;
+            margin-left: 874px;
+        }
+        
+        .good-text3 {
+            font-size: 16px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 308px;
+            margin-left: 824px;
+        }
+        
+        .footer {
+            width: 100%;
+            height: 529px;
+            background-color: #000000;
+            position: absolute;
+            margin-top: 3518px;
+        }
+        
+        .opera {
+            font-size: 18px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-left: 126px;
+            margin-top: 50px;
+        }
+        
+        .opera-pics {
+            position: absolute;
+            margin-top: 46px;
+            margin-left: 220px;
+        }
+        
+        .opera-pics img {
+            margin: 0 0 0 16px;
+        }
+        
+        .hot-area {
+            font-size: 18px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-left: 126px;
+            margin-top: 155px;
+        }
+        
+        .hot-area-name {
+            font-size: 13.97px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: -43px;
+            margin-left: 93px;
+            width: 1081px;
+            height: 43px;
+            line-height: 21px;
+        }
+        
+        .item {
+            font-size: 18px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-left: 125px;
+            margin-top: 240px;
+        }
+        
+        .item-service-name {
+            font-size: 13.97px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 240px;
+            margin-left: 220px;
+            width: 635px;
+        }
+        
+        .friend {
+            font-size: 18px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-left: 125px;
+            margin-top: 300px;
+        }
+        
+        .friend-link-name {
+            font-size: 13.97px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 300px;
+            margin-left: 220px;
+            width: 1060px;
+            height: 41px;
+        }
+        
+        .tail {
+            font-size: 16.13px;
+            color: #e1e1e1;
+            position: absolute;
+            margin-top: 413px;
+            margin-left: 561px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="bottom">
+            <span><img src="img/tell.png"><p class="p1">400-808-8682</p><p class="p2">请登录|注册</p></span>
+        </div>
+
+        <div class="nav">
+            <img src="img/logo.png">
+            <div class="nav-list">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">热门路线</a></li>
+                    <li><a href="#">签证推荐</a></li>
+                    <li><a href="#">使命愿景</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="nav row">
+            <img src="img/logo.png" class="col-md-4 ">
+            <div class="nav-list col-md-8 ">
+                <ul>
+                    <li col-md-2><a href="#">首页</a></li>>
+                    <li col-md-2><a href="#">热门路线</a></li>>
+                    <li col-md-2><a href="#">签证推荐</a></li>>
+                    <li col-md-2><a href="#">使命愿景</a></li>>
+                </ul>
+            </div>
+        </div> -->
+
+        <div class="banner">
+            <img src="img/banner.jpg">
+            <p class="banner-p1">悠游古欧洲 便览德瑞法意</p>
+            <div class="line1"></div>
+            <p class="banner-p2">巴黎卢浮宫、塞纳河游船、凡尔赛宫</p>
+            <p class="banner-p3">少女峰、大运河游船、金色列车，西庸城堡</p>
+            <div class="line2"></div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="content1 row">
+                    <img class="pic1" src="img/Sbanner2.jpg">
+                    <div class="pic2"></div>
+                    <img class="car" src="img/car.png">
+                    <p class="cars">车辆接送</p>
+                    <div class="round-rectangle">
+                        <p class="chakan">查看详情</p>
+                    </div>
+                    <p class="plane-text1">机场接送 省钱省心</p>
+                    <p class="plane-text2">提供上海、苏州、无锡各市</p>
+                    <p class="plane-text3">往返机场、码头接送服务，更有包车服务</p>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="content2 column">
+                    <p class="hot-route">热 门 线 路</p>
+                    <p class="hot-route-E">Popular tourist routes</p>
+                    <div class="content-pics">
+                        <div class="hot1">
+                            <img src="img/hot1.jpg">
+                        </div>
+                        <div class="hot3">
+                            <img src="img/hot3.jpg">
+                            <div class="cover" id="cover1">
+                                <p class="mangu">曼谷+芭提雅 国际五星，赠送2220大礼包，绝无自费</p>
+                                <p class="mangu-money">￥2799/人起</p>
+                            </div>
+                        </div>
+                        <div class="hot2">
+                            <img src="img/hot2.jpg">
+                        </div>
+                        <div class="hot4">
+                            <img src="img/hot4.jpg">
+                            <div class="cover" id="cover2">
+                                <p class="japan">日本本州游 樱花、寿司、温泉、美食</p>
+                                <p class="japan-money">￥5399/人起</p>
+                            </div>
+                        </div>
+                        <div class="hot5">
+                            <img src="img/hot5.jpg">
+                            <div class="cover" id="cover3">
+                                <p class="sili">斯里兰卡7天6晚全景游 保证入住2晚香格里拉</p>
+                                <p class="sili-money">￥7999/人起</p>
+                            </div>
+                        </div>
+                        <div class="black" id="black1">
+                            <p class="sanya">海南三亚5天4晚，纯玩、4晚红树林度假王国</p>
+                            <p class="sanya-money">￥2580/人起</p>
+                        </div>
+                        <div class="black" id="black2">
+                            <p class="europe">德法意瑞欧洲4国，ABCD任意线路由您挑选</p>
+                            <p class="europe-money">￥7999/人起</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content3 row">
+                    <p class="tourist">使命与愿景</p>
+                    <p class="slogan">让旅游回归本质，体验纯粹旅游</p>
+                    <div class="pictures">
+                        <img class="picture1" src="img/mission1.jpg">
+                        <div class="picture2">
+                            <p class=picture2-p1>服务理念及优势</p>
+                            <p class=picture2-p2> “英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提供性价比高的产品和服务。</p>
+                        </div>
+                        <img class="picture3" src="img/mission2.jpg">
+                        <div class="picture4">
+                            <img class="round" src="img/rorate.png">
+                            <img class="zuanshi" src="img/icon1.png">
+                            <p class="quality-text1">品质行程</p>
+                            <p class="quality-text2">旅游达人精心设计、基于口碑反复打磨,</p>
+                            <p class="quality-text3">全网最好，敢跟任何产品比</p>
+
+                            <img class="round2" src="img/rorate.png">
+                            <img class="custom" src="img/icon2.png">
+                            <p class="custom-text1">品质消费</p>
+                            <p class="custom-text2">不推自费，</p>
+                            <p class="custom-text3">不进垃圾购物店和伪景点</p>
+
+                            <img class="round3" src="img/rorate.png">
+                            <img class="good" src="img/icon3.png">
+                            <p class="good-text1">品质小团</p>
+                            <p class="good-text2">独立成团不散拼，</p>
+                            <p class="good-text3">只跟亲朋好友一起玩，每天发团</p>
+                        </div>
+                    </div>
+                    </img>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="footer">
+            <div class="operation">
+                <p class="opera">合作伙伴</p>
+                <div class="opera-pics">
+                    <img class="xiecheng" src="img/xiecheng.png">
+                    <img class="ali" src="img/feizhu.png">
+                    <img class="where" src="img/quna.png">
+                    <img class="tour" src="img/suzhou.png">
+                </div>
+            </div>
+
+            <div class="hot-area">
+                <p class="hot">热门位置</p>
+                <p class="hot-area-name">韩国 日本 菲律宾 越南 老挝 柬埔寨 泰国 马来西亚 新加坡 印度尼西亚 印度 斯里兰卡 土耳其 阿联酋 西班牙 意大利 希腊 法国 比利时 荷兰 英国 瑞士 奥地利 德国 匈牙利 俄罗斯 捷克 芬兰 葡萄牙 冰岛 美国 加拿大 巴西 阿根廷 澳大利亚 新西兰</p>
+            </div>
+
+            <div class="item-service">
+                <p class="item">主题服务</p>
+                <p class="item-service-name">海岛度假 历史文化 探索冒险 美食购物 都市生活 海外游学 邮轮度假 蜜月摄影 亲子乐园</p>
+            </div>
+
+            <div class="friend-link">
+                <p class="friend">友情链接</p>
+                <p class="friend-link-name">蜂窝 穷游 booking 苏州旅游局 驴友网 吾爱全球签证中心 酒店团购 携程旅游攻略 天巡职航在线 满天飞旅游网 中国旅游网 澳乐网 背包兔旅游行程 出境旅游 国际酒店 广州旅行社 出境旅游 517旅行 花生游 家园网 海外婚礼</p>
+            </div>
+
+            <p class="tail">2020 @苏州英华国际旅游有限公司 版权所有</p>
+        </div>
+</body>
+
+
+</div>
+
+</html>
